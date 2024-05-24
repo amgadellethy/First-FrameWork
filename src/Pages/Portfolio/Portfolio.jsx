@@ -29,7 +29,7 @@ export default function Portfolio() {
               }}
             >
               <img
-                src="../../../public/assessts/poert1.png"
+                src={img1}
                 className="rounded"
                 alt=""
               />
@@ -45,7 +45,7 @@ export default function Portfolio() {
               }}
             >
               <img
-                src="../../../public/assessts/port2.png"
+                src={img2}
                 className="rounded"
                 alt=""
               />
@@ -61,7 +61,7 @@ export default function Portfolio() {
               }}
             >
               <img
-                src="../../../public/assessts/port3.png"
+                src={img3}
                 className="rounded"
                 alt=""
               />
@@ -77,7 +77,7 @@ export default function Portfolio() {
               }}
             >
               <img
-                src="../../../public/assessts/poert1.png"
+                src={img1}
                 className="rounded"
                 alt=""
               />
@@ -93,7 +93,7 @@ export default function Portfolio() {
               }}
             >
               <img
-                src="../../../public/assessts/port2.png"
+                src={img2}
                 className="rounded"
                 alt=""
               />
@@ -109,7 +109,7 @@ export default function Portfolio() {
               }}
             >
               <img
-                src="../../../public/assessts/port3.png"
+                src={img3}
                 className="rounded"
                 alt=""
               />
