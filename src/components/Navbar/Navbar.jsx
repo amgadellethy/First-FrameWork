@@ -13,15 +13,15 @@ export default function Navbar() {
     if (
       (document.body.scrollTop = 0 || document.documentElement.scrollTop > 0)
     ) {
-      setPadd(10);
+      setPadd(10)
     } else {
-      setPadd(5);
+setPadd(5)      
     }
   }
 
   return (
     <>
-      <nav className={`text-white nav ${styles.nav} p-${padd} 	`}>
+      <nav className={`text-white nav ${styles.nav} ${(padd == 5) ? styles.padd5 : styles.padd10}`}>
         <div className="container  mx-auto ">
           <div className="flex justify-between items-center ">
             <h1 className="font-bold text-3xl cursor-pointer ">

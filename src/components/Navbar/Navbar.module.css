@@ -12,6 +12,12 @@ nav {
 .nav :global(.nav-menu) {
   display: flex;
 }
+.padd5{
+  padding: 1.25rem;
+}
+.padd10{
+  padding: 2.5rem;
+}
 
 /* .nav-fixed{
     padding-block: 10px;
