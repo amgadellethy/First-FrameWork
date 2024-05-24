@@ -1,0 +1,48 @@
+nav {
+  background-color: #2c3e50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 6666;
+  transition: padding 0.5s;
+  /*padding-block: 40px;
+        */
+}
+.nav :global(.nav-menu) {
+  display: flex;
+}
+
+/* .nav-fixed{
+    padding-block: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    z-index: 6666;
+} */
+
+/* .nav-narrow{
+   padding-block: 25px;
+   transition: .5s;
+   -webkit-transition: .5s;
+   -moz-transition: .5s;
+   -ms-transition: .5s;
+   -o-transition: .5s;
+   z-index: 6666;
+} */
+
+.nav :global(.icon-menu) {
+  display: none;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 700px) {
+  .nav :global(ul) {
+    display: none !important;
+  }
+  .nav :global(.icon-menu) {
+    display: block !important;
+  }
+}

@@ -1,0 +1,29 @@
+.contact :global(input){
+    padding-left: 15px;
+    border-radius: 20px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+
+}
+.contact :global(input)::placeholder{
+    font-size: 16px;
+    color: rgb(167, 167, 167);
+    font-weight: normal;
+}
+
+
+.contact [class *= "label"]{
+
+    top: 8px;
+    left: 25%;
+    transition: .5s;
+    z-index: -1;
+    
+    
+}
+
+
+
+.contact :global(input):focus + [class *= "label"] {
+top: -24px;
+
+}

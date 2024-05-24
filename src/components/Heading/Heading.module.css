@@ -1,0 +1,22 @@
+.star {
+    width: fit-content;
+    margin: auto;
+}
+.star::after , .star::before{
+    position: absolute;
+    content: "";
+    
+    height: 3px;
+    width: 80px;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    /* transform: translateX(-50%); */
+    
+}
+.star::after {
+    right: 30px;
+}
+.star::before{
+    left: 30px;
+}
